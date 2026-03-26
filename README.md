@@ -1,36 +1,48 @@
-**Joke Generator (Fetch API & Logic)**
-A fun, interactive web application that delivers a quick laugh at the click of a button. This project demonstrates the use of Asynchronous JavaScript (Promises/Async-Await) to fetch data from a third-party API, as well as fallback logic using local arrays.
+# Joke Generator API
 
-**How to Run**
-1)Clone the repository to your local machine.
+A simple API-based project that fetches and displays random jokes using a public jokes API.
 
-2)Open jokeGenarater.html in your browser.
+## Project Description
 
-3)Click the "Generate Joke" button to start laughing!
+This project connects to a public jokes API to fetch random jokes and display them in a clean and simple interface. It demonstrates how to work with APIs, handle responses, and show dynamic content on the UI. Public joke APIs typically return jokes in JSON format and support different categories and filters ([PublicAPI][1])
 
-✨**Key Features**
-Dual-Mode Logic: Built with two functions—one that fetches jokes in real-time from the official-joke-api and a secondary function that pulls from a curated local list.
+## Live Link
 
-Instant Interaction: Quick-response button to generate new content without page reloads.
+[ link here]
 
-Clean UI: A centered, distraction-free interface with a soft color palette for a friendly user experience.
+## Screenshots
+<img width="1890" height="897" alt="Screenshot (373)" src="https://github.com/user-attachments/assets/5d6e7f76-eaad-4361-93a7-9b56358681db" />
 
-Quality Assured: Includes a comprehensive set of Manual Test Cases (CSV/Excel) covering functionality, integration, and edge cases (like network failure).
 
-🛠️ **Tech Stack**
-HTML5: Semantic structure for the generator interface.
+## Tech Stack
 
-CSS3: Flexbox-driven layout with custom hover states and responsive positioning.
+* HTML
+* CSS
+* JavaScript
+* Public Joke API
 
-JavaScript (ES6+): * fetch() API for data retrieval.
+## Key Features
 
-async/await for handling asynchronous operations.
+* Fetch random jokes from API
+* Dynamic content rendering
+* Simple and interactive UI
+* Easy API integration
 
-Event listeners for user interaction.
+## Getting Started
 
-📂 **Project Structure**
-Plaintext
-├── jokeGenarater.html   # Main application structure
-├── jokeGenrater.css     # Styling and layout
-├── jokeGenarater.js     # Logic (API calls and Array handling)
-└── JokeGenerator_TestCases.csv  # Detailed QA documentation
+1. Clone the repository
+   git clone https://github.com/preethikasuburamani/Joke-Genarater-API.git
+2. Navigate to the folder
+   cd Joke-Generator-API
+3. Add API endpoint (if needed)
+4. Open `index.html` in your browser
+
+## Contact
+ GitHub: https://github.com/preethikasuburamani
+ LinkedIn: https://www.linkedin.com/in/preethika-subramani/
+
+---
+
+Simple project to practice working with APIs and dynamic data.
+
+[1]: https://publicapi.dev/joke-api?utm_source=chatgpt.com "JokeAPI API - PublicAPI"
